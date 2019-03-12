@@ -21,9 +21,6 @@
             android:text="@string/welcome"
             android:textSize="20sp" />
 
-
-
-
     </LinearLayout>
 
     <Button
@@ -33,8 +30,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="40dip"
         android:background="@color/red"
+        android:onClick="onClickLogout"
         android:text="@string/btn_logout"
-        android:onClick="btnLogout"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="15sp" />
